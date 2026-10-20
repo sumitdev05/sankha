@@ -56,6 +56,9 @@ with `/myentry` and `/entries`. Data from one server is never shown in another s
   entry admin removes it, or Sankha is removed from that server, which deletes that server's data.
 - Entry admin list: until the server owner removes the admin or Sankha is removed from the server.
 - Server logs: 30 days.
+- Backups: a nightly copy of the stored data and audio files is kept for 7 days (on the bot's server and on the
+  developer's computer) so it can be restored after a failure, then deleted. Anything you delete disappears from
+  the backups within 7 days.
 
 ## Your choices and deletion
 
